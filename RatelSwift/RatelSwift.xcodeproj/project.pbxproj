@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AF8CF422CEE83000C0E053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CF322CEE83000C0E053 /* AppDelegate.swift */; };
+		18AF8CF622CEE83000C0E053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CF522CEE83000C0E053 /* ViewController.swift */; };
+		18AF8CF922CEE83000C0E053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CF722CEE83000C0E053 /* Main.storyboard */; };
+		18AF8CFB22CEE83100C0E053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CFA22CEE83100C0E053 /* Assets.xcassets */; };
+		18AF8CFE22CEE83100C0E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CFC22CEE83100C0E053 /* LaunchScreen.storyboard */; };
+		F6CF297BB91EDFB2A3D12D85 /* libPods-RatelSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AF8CF022CEE83000C0E053 /* RatelSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatelSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AF8CF322CEE83000C0E053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AF8CF522CEE83000C0E053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18AF8CF822CEE83000C0E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AF8CFA22CEE83100C0E053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AF8CFD22CEE83100C0E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AF8CFF22CEE83100C0E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelSwift/Pods-RatelSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RatelSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelSwift/Pods-RatelSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AF8CED22CEE83000C0E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CF297BB91EDFB2A3D12D85 /* libPods-RatelSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E548F1BAA1BC4F4658D9BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18AF8CE722CEE83000C0E053 = {
+			isa = PBXGroup;
+			children = (
+				18AF8CF222CEE83000C0E053 /* RatelSwift */,
+				18AF8CF122CEE83000C0E053 /* Products */,
+				45EA365F5481EA7C09A63D85 /* Pods */,
+				0E548F1BAA1BC4F4658D9BA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18AF8CF122CEE83000C0E053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AF8CF022CEE83000C0E053 /* RatelSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AF8CF222CEE83000C0E053 /* RatelSwift */ = {
+			isa = PBXGroup;
+			children = (
+				18AF8CF322CEE83000C0E053 /* AppDelegate.swift */,
+				18AF8CF522CEE83000C0E053 /* ViewController.swift */,
+				18AF8CF722CEE83000C0E053 /* Main.storyboard */,
+				18AF8CFA22CEE83100C0E053 /* Assets.xcassets */,
+				18AF8CFC22CEE83100C0E053 /* LaunchScreen.storyboard */,
+				18AF8CFF22CEE83100C0E053 /* Info.plist */,
+			);
+			path = RatelSwift;
+			sourceTree = "<group>";
+		};
+		45EA365F5481EA7C09A63D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */,
+				DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AF8CEF22CEE83000C0E053 /* RatelSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AF8D0222CEE83100C0E053 /* Build configuration list for PBXNativeTarget "RatelSwift" */;
+			buildPhases = (
+				819EE409B3647D749DAD0375 /* [CP] Check Pods Manifest.lock */,
+				18AF8CEC22CEE83000C0E053 /* Sources */,
+				18AF8CED22CEE83000C0E053 /* Frameworks */,
+				18AF8CEE22CEE83000C0E053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatelSwift;
+			productName = RatelSwift;
+			productReference = 18AF8CF022CEE83000C0E053 /* RatelSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AF8CE822CEE83000C0E053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18AF8CEF22CEE83000C0E053 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18AF8CEB22CEE83000C0E053 /* Build configuration list for PBXProject "RatelSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AF8CE722CEE83000C0E053;
+			productRefGroup = 18AF8CF122CEE83000C0E053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AF8CEF22CEE83000C0E053 /* RatelSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AF8CEE22CEE83000C0E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF8CFE22CEE83100C0E053 /* LaunchScreen.storyboard in Resources */,
+				18AF8CFB22CEE83100C0E053 /* Assets.xcassets in Resources */,
+				18AF8CF922CEE83000C0E053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		819EE409B3647D749DAD0375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RatelSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AF8CEC22CEE83000C0E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF8CF622CEE83000C0E053 /* ViewController.swift in Sources */,
+				18AF8CF422CEE83000C0E053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18AF8CF722CEE83000C0E053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF8CF822CEE83000C0E053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AF8CFC22CEE83100C0E053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AF8CFD22CEE83100C0E053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AF8D0022CEE83100C0E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AF8D0122CEE83100C0E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AF8D0322CEE83100C0E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJPZ789UVH;
+				INFOPLIST_FILE = RatelSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18AF8D0422CEE83100C0E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJPZ789UVH;
+				INFOPLIST_FILE = RatelSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AF8CEB22CEE83000C0E053 /* Build configuration list for PBXProject "RatelSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF8D0022CEE83100C0E053 /* Debug */,
+				18AF8D0122CEE83100C0E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AF8D0222CEE83100C0E053 /* Build configuration list for PBXNativeTarget "RatelSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AF8D0322CEE83100C0E053 /* Debug */,
+				18AF8D0422CEE83100C0E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AF8CE822CEE83000C0E053 /* Project object */;
+}
