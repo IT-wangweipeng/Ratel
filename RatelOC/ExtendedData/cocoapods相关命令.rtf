@@ -1,0 +1,296 @@
+{\rtf1\ansi\ansicpg936\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;\f1\fnil\fcharset134 PingFangSC-Regular;\f2\fnil\fcharset0 HelveticaNeue;
+\f3\fswiss\fcharset0 ArialMT;\f4\fnil\fcharset0 Monaco;\f5\fnil\fcharset134 STSongti-SC-Regular;
+\f6\froman\fcharset0 Times-Roman;\f7\fnil\fcharset0 .SFNS-Regular;\f8\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red20\green0\blue65;\red255\green255\blue255;\red7\green60\blue82;
+\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red218\green218\blue218;\red16\green16\blue16;
+\red49\green49\blue49;\red15\green107\blue197;\red0\green0\blue0;\red60\green60\blue60;\red191\green44\blue30;
+\red249\green249\blue249;\red29\green29\blue29;\red234\green234\blue234;\red67\green67\blue67;}
+{\*\expandedcolortbl;;\cssrgb\c10369\c3853\c32394;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c30219\c39596;
+\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c0\c0\c0\c85000;\cssrgb\c0\c0\c0;\cssrgb\c88396\c88396\c88396;\cssrgb\c7532\c7532\c7532;
+\cssrgb\c25098\c25098\c25098;\cssrgb\c2353\c50588\c81569;\csgray\c0\c0;\cssrgb\c30196\c30196\c30196;\cssrgb\c80372\c25436\c15431;
+\cssrgb\c98039\c98039\c98039;\cssrgb\c14902\c14902\c14902;\cssrgb\c93333\c93333\c93333;\cssrgb\c33333\c33333\c33333;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22280\viewh19880\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf2 \cb3 \CocoaLigature0 ///
+\f1 \'c9\'cf\'b4\'ab
+\f0 cocoapods\
+
+\f1 \'b4\'b4\'bd\'a8
+\f0 podspec
+\f1 \'ce\'c4\'bc\'fe
+\f0  
+\f1 \'d7\'a2
+\f0  
+\f1 \'b4\'cb\'ce\'c4\'bc\'fe\'c3\'fb\'ce\'aa\'c8\'fd\'b7\'bd\'bf\'e2\'c3\'fb\'b3\'c6
+\f0 \
+pod spec create YLNewsSdkTool\
+ \
+
+\f1 //\'b1\'e0\'bc\'ad
+\f0 podspec
+\f1 \'ce\'c4\'bc\'fe\'c8\'e7\'cf\'c2 eg:
+\f0 \
+\pard\tx720\pardeftab720\pardirnatural\partightenfactor0
+
+\fs30 \cf4 \cb5 \CocoaLigature1 Pod::Spec.new do |spec|\
+\
+    spec.name         = "YLNewsSdkTool"\
+    spec.version      = "1.0.0.1"     
+\f1 //\'b6\'d4\'d3\'a6git push\'b5\'c4tag
+\f0 \
+    spec.summary      = "YLNewsSdk suport iOS"\
+\
+    spec.description  = <<-DESC\
+    YLNewsSdk trusteeship\
+                    DESC\
+                    \
+    spec.homepage     = "https://github.com/YLNewsSDK-iOS/YLNewsSDK"   
+\f1 //\'b2\'d6\'bf\'e2\'b5\'d8\'d6\'b7
+\f0 \
+    spec.license      = "MIT"\
+    spec.author             = \{ "wangweipeng" => "weipeng.w@qq.com" \}\
+    spec.platform     = :ios, "10.0"\
+\
+    spec.source       = \{ :git => "https://github.com/YLNewsSDK-iOS/YLNewsSDK.git", :tag => "#\{spec.version\}" \}\
+    spec.resource  = "YLNewsSdk/YLIFSdkBundle.bundle"\
+    spec.vendored_frameworks = "YLNewsSdk/YLInfoFlowSDK.framework"\
+\
+    spec.frameworks = "UIKit","CoreFoundation","QuartzCore","ImageIO","Accelerate", "MobileCoreServices"  \
+    spec.libraries = "sqlite3.0", "z"   //
+\f1 \'c1\'b4\'bd\'d3\'b5\'c4\'cf\'b5\'cd\'b3\'bf\'e2\
+
+\f0 \
+    spec.requires_arc = true\
+    \
+    spec.pod_target_xcconfig = \{'VALID_ARCHS[sdk=iphonesimulator*]' => ''\}\
+    \
+    spec.dependency "Bytedance-UnionAD", "~> 2.9.5.8"  //
+\f1 \'c1\'b4\'bd\'d3\'b5\'c4\'cd\'e2\'b2\'bf\'bf\'e2\
+\pard\tx720\pardeftab720\pardirnatural\partightenfactor0
+
+\f0 \cf6 	#spec.dependency "WechatOpenSDK" ,"~> 1.7.9"\
+    #spec.dependency "TencentOpenApiSDK" ,"~> 2.9.5"\cf4 \
+\
+end
+\fs36 \cf2 \cb3 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \
+\
+pod repo list  //
+\f1 \'b2\'e9\'bf\'b4
+\f0 repo
+\f1 \'c1\'d0\'b1\'ed
+\f0 \
+pod repo add YLNewsSdk https://github.com/YLNewsSDK-iOS/YLNewsSDK.git   //
+\f1 \'cc\'ed\'bc\'d3
+\f0 repo \
+pod repo remove YLNewsSDK  
+\f1 //\'d2\'c6\'b3\'fd
+\f0 repo\
+  \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1 \cf7 ///\expnd0\expndtw0\kerning0
+\CocoaLigature1 \'cb\'bd\kerning1\expnd0\expndtw0 \CocoaLigature0 \'d3\'d0\'bf\'e2\
+pod lib lint --skip-import-validation  //lint \'bc\'ec\'d1\'e9  //--skip-import-validation\'cc\'f8\'b9\'fd\'bc\'ec\'d1\'e9\'d6\'f7\'d2\'aa\'d3\'a6\'b6\'d4\'c1\'b4\'bd\'d3\'c8\'fd\'b7\'bd\'bf\'e2\'ca\'b1\'b5\'c4\'b3\'e5\'cd\'bb\'ce\'ca\'cc\'e2\
+\pard\pardeftab720\partightenfactor0
+\cf7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 pod lib lint --allow-warnings --no-clean --sources='\'b2\'d6\'bf\'e2\'b5\'d8\'d6\'b7,https://github.com/CocoaPods/Specs.git' --skip-import-validation --user-libraries\kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\expnd0\expndtw0\kerning0
+\CocoaLigature1 pod lib lint --verbose --allow-warnings --no-clean --sources='\'b2\'d6\'bf\'e2\'b5\'d8\'d6\'b7,https://github.com/CocoaPods/Specs.git' --skip-import-validation\kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\expnd0\expndtw0\kerning0
+\CocoaLigature1 pod lib lint --allow-warnings --no-clean --sources='\kerning1\expnd0\expndtw0 \CocoaLigature0 https://github.com/YLNewsSDK-iOS/YLNewsSDK.git\expnd0\expndtw0\kerning0
+\CocoaLigature1 ,https://github.com/CocoaPods/Specs.git' --skip-import-validation \kerning1\expnd0\expndtw0 \CocoaLigature0 --use-libraries\
+\expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf7 \kerning1\expnd0\expndtw0 \CocoaLigature0 pod repo push YLNewsSdk YLNewsSdkTool.podspec --skip-import-validation --allow-warnings --use-libraries  //\'cd\'c6\'cb\'cd \'cc\'f8\'b9\'fd\'d0\'a3\'d1\'e9\expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \
+///\'b9\'ab\'d3\'d0\
+//pod spec lint --allow-warnings --no-clean --sources='\kerning1\expnd0\expndtw0 \CocoaLigature0 https://github.com/YLNewsSDK-iOS/YLNewsSDK.git\expnd0\expndtw0\kerning0
+\CocoaLigature1 ,https://github.com/CocoaPods/Specs.git' --skip-import-validation \kerning1\expnd0\expndtw0 \CocoaLigature0 --use-libraries\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 //pod trunk push \kerning1\expnd0\expndtw0 \CocoaLigature0 YLNewsSdkTool.podspec\expnd0\expndtw0\kerning0
+\CocoaLigature1  \kerning1\expnd0\expndtw0 \CocoaLigature0 --use-libraries \expnd0\expndtw0\kerning0
+\CocoaLigature1 --allow-warnings\kerning1\expnd0\expndtw0 \CocoaLigature0  \expnd0\expndtw0\kerning0
+\CocoaLigature1 --verbose \kerning1\expnd0\expndtw0 \CocoaLigature0 --skip-import-validation\
+\
+//\'cf\'c2\'c3\'e6\'c1\'bd\'b8\'f6\'ca\'c7\'d5\'fd\'ca\'bd\'d3\'c3\'b9\'fd\'b5\'c4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf7 *pod spec lint YLNewsSDK.podspec --use-libraries --allow-warnings --verbose --skip-import-validation\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 *pod trunk push \kerning1\expnd0\expndtw0 \CocoaLigature0 --use-libraries \expnd0\expndtw0\kerning0
+\CocoaLigature1 --allow-warnings\kerning1\expnd0\expndtw0 \CocoaLigature0  \expnd0\expndtw0\kerning0
+\CocoaLigature1 --verbose \kerning1\expnd0\expndtw0 \CocoaLigature0 --skip-import-validation\expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf7 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 //pod lib lint \kerning1\expnd0\expndtw0 \CocoaLigature0 YLNewsSdkTool.podspec\expnd0\expndtw0\kerning0
+\CocoaLigature1   --use-libraries  --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf7 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs36 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 pod cache clean --all  //
+\f1 \'c7\'e5\'c0\'edpod\'bb\'ba\'b4\'e6
+\f0 \
+\
+rm -rf ~/Library/Caches/CocoaPods/search_index.json  \
+\
+pod repo update  //
+\f1 \'b8\'fc\'d0\'c2
+\f0 repo\
+\
+pod search YLNewsSdkTool  //
+\f1 \'cb\'d1\'cb\'f7\'cd\'a8\'d3\'c3\'c3\'fc\'c1\'ee
+\f0 \
+\
+\
+\
+pod trunk me\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf8 \cb9   - Name:     wangweipeng\
+  - Email:    weipeng.w@qq.com\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs30 \cf2 \cb3 \CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf10 \expnd0\expndtw0\kerning0
+\'bb\'f1\'c8\'a1\'c3\'dc\'c2\'eb \'a3\'ba
+\f2 grep -A2 '{\field{\*\fldinst{HYPERLINK "https://links.jianshu.com/go?to=http%3A%2F%2Ftrunk.cocoapods.org%2F"}}{\fldrslt \cf11 trunk.cocoapods.org}}' ~/.netrc 
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\fs28 \cf0 \cb12 \expnd0\expndtw0\kerning0
+\'d0\'de\'b8\'c4\'c3\'fc\'c1\'ee\'a3\'ba  
+\f0\fs36 \kerning1\expnd0\expndtw0 \CocoaLigature0 curl -v -H "Authorization: Token \cf8 \cb9 84780ba4e4753a87f0c2dc144f9a76eb\cf0 \cb12 " -H "Content-Type: application/json" -X POST -d '\{"email":"weipeng.w@qq.com","name":"wangweipeng","description":"iOSDeveloper"\}' https://trunk.cocoapods.org/api/v1/sessions
+\fs30 \cf2 \cb3 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1 \cf2 ////////////////////////////
+\fs48 \cf7 cocoapods \'cf\'e0\'b9\'d8\'c3\'fc\'c1\'ee
+\fs30 \cf2 ////////////////////////
+\f0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf13 \expnd0\expndtw0\kerning0
+gem sources -l    //
+\f1 \'b2\'e9\'bf\'b4\'d4\'b4\'cd\'b7
+\f0\fs30 \cf2 \cb5 \kerning1\expnd0\expndtw0 \
+\
+
+\f1 //\'c2\'b7\'be\'b6
+\f0 \
+/Users/apple/.cocoapods/repos\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs32 \cf10 \cb3 \expnd0\expndtw0\kerning0
+~/.cocoapods/repo/\
+\
+~/Library/Caches/Cocoapods\
+\
+
+\f1 //\'c7\'e5\'c0\'ed\'bb\'ba\'b4\'e6
+\f2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf8 \cb9 \kerning1\expnd0\expndtw0 \CocoaLigature0 pod cache clean --all
+\fs30 \cf2 \cb5 \CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs36 \cf14 \cb9 \CocoaLigature0 [!] Unable to find a pod with name, author, summary, or description matching `YLNewsSdkTool`
+\fs30 \cf2 \cb5 \CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf13 \cb3 \expnd0\expndtw0\kerning0
+~/Library/Caches/CocoaPods/search_index.json\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf10 cocoapods master
+\f1 \'d2\'c6\'b3\'fd\'a3\'ba
+\f3 \cf13  
+\f2 \cf10 \cb15 sudo rm -fr ~/.cocoapods/repos/master\'a0\
+\
+\
+//
+\f1 \'b9\'fa\'c4\'da\'d4\'b4
+\f2 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs30 \cf16 \cb17 git clone https://gitee.com/mirrors/CocoaPods-Specs.git ~/.cocoapods/repos/master
+\f2\fs32 \cf10 \cb15 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb3 pod
+\f1 \'b0\'b2\'d7\'b0\'d3\'eb\'b7\'f1\'b2\'e9\'d1\'af
+\f2 (1
+\f1 \'ce\'aa\'b0\'b2\'d7\'b0\'b3\'c9\'b9\'a6\'a3\'ac
+\f2 0
+\f1 \'ce\'aa\'b2\'bb\'b3\'c9\'b9\'a6
+\f2 ): \cb15 pod repo list\
+\
+\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f5\fs24 \cf7 \cb1 \'c7\'e5\'bf\'d5\'c8\'ab\'be\'d6\'bb\'ba\'b4\'e6:
+\f6 \
+$ sudo rm -fr ~/Library/Caches/CocoaPods/\
+$ sudo rm -fr ~/.cocoapods/repos/master/\
+$ sudo rm -fr Pods/\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs36 \cf7 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 \'b2\'e9\'bf\'b4
+\f0 Git
+\f1 \'c5\'e4\'d6\'c3\'a3\'ba
+\f0   git config -l
+\f6\fs24 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f1\fs32 \cf10 \cb3 \'c8\'a1\'cf\'fb
+\f7 git
+\f1 \'b4\'fa\'c0\'ed
+\f2 : git config --global --unset http.proxy\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf10 \
+\pard\pardeftab720\partightenfactor0
+
+\f8\fs25\fsmilli12750 \cf18 \cb17 pod install --verbose   
+\f1 //\'bf\'c9\'d2\'d4\'b2\'e9\'bf\'b4\'cf\'b8\'bd\'da
+\f8 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs32 \cf10 \cb3 \
+\pard\pardeftab720\partightenfactor0
+
+\f6\fs24 \cf7 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs30 \cf2 \cb5 \kerning1\expnd0\expndtw0 \
+}

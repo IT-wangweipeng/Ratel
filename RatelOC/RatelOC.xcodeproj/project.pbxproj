@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18A8024F22D4BCC600083AAF /* Fizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8024E22D4BCC600083AAF /* Fizz.m */; };
+		18A8B00824F60AD900C5D419 /* cocoapods相关命令.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18A8B00624F60AD900C5D419 /* cocoapods相关命令.rtf */; };
+		18A8B00924F60AD900C5D419 /* 重要命令行.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18A8B00724F60AD900C5D419 /* 重要命令行.rtf */; };
+		18A8B00B24F6157900C5D419 /* 各类证书权限.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A8B00A24F6157900C5D419 /* 各类证书权限.png */; };
 		18AF8CD322CEE7FA00C0E053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CD222CEE7FA00C0E053 /* AppDelegate.m */; };
 		18AF8CD622CEE7FA00C0E053 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CD522CEE7FA00C0E053 /* ViewController.m */; };
 		18AF8CD922CEE7FA00C0E053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CD722CEE7FA00C0E053 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		18A8024D22D4BCC600083AAF /* Fizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fizz.h; sourceTree = "<group>"; };
 		18A8024E22D4BCC600083AAF /* Fizz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fizz.m; sourceTree = "<group>"; };
+		18A8B00624F60AD900C5D419 /* cocoapods相关命令.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "cocoapods相关命令.rtf"; sourceTree = "<group>"; };
+		18A8B00724F60AD900C5D419 /* 重要命令行.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "重要命令行.rtf"; sourceTree = "<group>"; };
+		18A8B00A24F6157900C5D419 /* 各类证书权限.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "各类证书权限.png"; sourceTree = "<group>"; };
 		18AF8CCE22CEE7FA00C0E053 /* RatelOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatelOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF8CD122CEE7FA00C0E053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AF8CD222CEE7FA00C0E053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,9 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A8B00524F60AA000C5D419 /* ExtendedData */ = {
+			isa = PBXGroup;
+			children = (
+				18A8B00A24F6157900C5D419 /* 各类证书权限.png */,
+				18A8B00724F60AD900C5D419 /* 重要命令行.rtf */,
+				18A8B00624F60AD900C5D419 /* cocoapods相关命令.rtf */,
+			);
+			path = ExtendedData;
+			sourceTree = "<group>";
+		};
 		18AF8CC522CEE7FA00C0E053 = {
 			isa = PBXGroup;
 			children = (
+				18A8B00524F60AA000C5D419 /* ExtendedData */,
 				18AF8CD022CEE7FA00C0E053 /* RatelOC */,
 				18AF8CCF22CEE7FA00C0E053 /* Products */,
 				1B593F718A13D931DC7FF63D /* Frameworks */,
@@ -162,7 +179,10 @@
 			files = (
 				18AF8CDE22CEE7FB00C0E053 /* LaunchScreen.storyboard in Resources */,
 				18AF8CDB22CEE7FB00C0E053 /* Assets.xcassets in Resources */,
+				18A8B00B24F6157900C5D419 /* 各类证书权限.png in Resources */,
+				18A8B00824F60AD900C5D419 /* cocoapods相关命令.rtf in Resources */,
 				18AF8CD922CEE7FA00C0E053 /* Main.storyboard in Resources */,
+				18A8B00924F60AD900C5D419 /* 重要命令行.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
