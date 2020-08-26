@@ -12,7 +12,7 @@
 		18AF8CF922CEE83000C0E053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CF722CEE83000C0E053 /* Main.storyboard */; };
 		18AF8CFB22CEE83100C0E053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CFA22CEE83100C0E053 /* Assets.xcassets */; };
 		18AF8CFE22CEE83100C0E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CFC22CEE83100C0E053 /* LaunchScreen.storyboard */; };
-		F6CF297BB91EDFB2A3D12D85 /* libPods-RatelSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */; };
+		44281931667AFB0E532F91A7 /* libPods-RatelSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B83F68AE94BFA37CFB7A07 /* libPods-RatelSwift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		18AF8CFA22CEE83100C0E053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AF8CFD22CEE83100C0E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AF8CFF22CEE83100C0E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelSwift/Pods-RatelSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RatelSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelSwift/Pods-RatelSwift.release.xcconfig"; sourceTree = "<group>"; };
+		57B83F68AE94BFA37CFB7A07 /* libPods-RatelSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RatelSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7627989A741E5E8188DBADBF /* Pods-RatelSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.debug.xcconfig"; path = "Target Support Files/Pods-RatelSwift/Pods-RatelSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CC44C68B7BDD22F714908966 /* Pods-RatelSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelSwift.release.xcconfig"; path = "Target Support Files/Pods-RatelSwift/Pods-RatelSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6CF297BB91EDFB2A3D12D85 /* libPods-RatelSwift.a in Frameworks */,
+				44281931667AFB0E532F91A7 /* libPods-RatelSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		0E548F1BAA1BC4F4658D9BA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E7CF430182FAFF8B4A37E91 /* libPods-RatelSwift.a */,
+				57B83F68AE94BFA37CFB7A07 /* libPods-RatelSwift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -53,8 +53,8 @@
 			children = (
 				18AF8CF222CEE83000C0E053 /* RatelSwift */,
 				18AF8CF122CEE83000C0E053 /* Products */,
-				45EA365F5481EA7C09A63D85 /* Pods */,
 				0E548F1BAA1BC4F4658D9BA5 /* Frameworks */,
+				6ACCFE34D28EFEB66F7390D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +79,14 @@
 			path = RatelSwift;
 			sourceTree = "<group>";
 		};
-		45EA365F5481EA7C09A63D85 /* Pods */ = {
+		6ACCFE34D28EFEB66F7390D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */,
-				DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */,
+				7627989A741E5E8188DBADBF /* Pods-RatelSwift.debug.xcconfig */,
+				CC44C68B7BDD22F714908966 /* Pods-RatelSwift.release.xcconfig */,
 			);
 			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,12 +331,13 @@
 		};
 		18AF8D0322CEE83100C0E053 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE2393A1BC6F4EF05B6EF8A /* Pods-RatelSwift.debug.xcconfig */;
+			baseConfigurationReference = 7627989A741E5E8188DBADBF /* Pods-RatelSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPZ789UVH;
 				INFOPLIST_FILE = RatelSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,18 +345,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18AF8D0422CEE83100C0E053 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC0B65FB4830C91DBC8F3F4D /* Pods-RatelSwift.release.xcconfig */;
+			baseConfigurationReference = CC44C68B7BDD22F714908966 /* Pods-RatelSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPZ789UVH;
 				INFOPLIST_FILE = RatelSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

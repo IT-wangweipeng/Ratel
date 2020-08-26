@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1830C24A246B8C6B009C6855 /* WPAFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830C249246B8C6B009C6855 /* WPAFNetwork.m */; };
 		18A8024F22D4BCC600083AAF /* Fizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8024E22D4BCC600083AAF /* Fizz.m */; };
 		18AF8CD322CEE7FA00C0E053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CD222CEE7FA00C0E053 /* AppDelegate.m */; };
 		18AF8CD622CEE7FA00C0E053 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CD522CEE7FA00C0E053 /* ViewController.m */; };
@@ -15,12 +14,10 @@
 		18AF8CDB22CEE7FB00C0E053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CDA22CEE7FB00C0E053 /* Assets.xcassets */; };
 		18AF8CDE22CEE7FB00C0E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF8CDC22CEE7FB00C0E053 /* LaunchScreen.storyboard */; };
 		18AF8CE122CEE7FB00C0E053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF8CE022CEE7FB00C0E053 /* main.m */; };
-		5C2F12C4B8799CFBF23A2AC7 /* libPods-RatelOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F9468B39F3D63F8E6F969F /* libPods-RatelOC.a */; };
+		B352F76D2028432763045BFB /* libPods-RatelOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B9085BB22AA0ACB4FA57BC /* libPods-RatelOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1830C248246B8C6B009C6855 /* WPAFNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAFNetwork.h; sourceTree = "<group>"; };
-		1830C249246B8C6B009C6855 /* WPAFNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAFNetwork.m; sourceTree = "<group>"; };
 		18A8024D22D4BCC600083AAF /* Fizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fizz.h; sourceTree = "<group>"; };
 		18A8024E22D4BCC600083AAF /* Fizz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fizz.m; sourceTree = "<group>"; };
 		18AF8CCE22CEE7FA00C0E053 /* RatelOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatelOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,9 +30,9 @@
 		18AF8CDD22CEE7FB00C0E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AF8CDF22CEE7FB00C0E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF8CE022CEE7FB00C0E053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7949ECAE08A98878911F1C00 /* Pods-RatelOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelOC.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelOC/Pods-RatelOC.debug.xcconfig"; sourceTree = "<group>"; };
-		A4F9468B39F3D63F8E6F969F /* libPods-RatelOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RatelOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF471130EAA820904041AAE4 /* Pods-RatelOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelOC.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RatelOC/Pods-RatelOC.release.xcconfig"; sourceTree = "<group>"; };
+		6F6D461888A01E71A83EAF74 /* Pods-RatelOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelOC.release.xcconfig"; path = "Target Support Files/Pods-RatelOC/Pods-RatelOC.release.xcconfig"; sourceTree = "<group>"; };
+		C0B9085BB22AA0ACB4FA57BC /* libPods-RatelOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RatelOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88F36311DF81D51BE8DDC2D /* Pods-RatelOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatelOC.debug.xcconfig"; path = "Target Support Files/Pods-RatelOC/Pods-RatelOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C2F12C4B8799CFBF23A2AC7 /* libPods-RatelOC.a in Frameworks */,
+				B352F76D2028432763045BFB /* libPods-RatelOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +52,8 @@
 			children = (
 				18AF8CD022CEE7FA00C0E053 /* RatelOC */,
 				18AF8CCF22CEE7FA00C0E053 /* Products */,
-				1EB890676C73770D75E8FBC2 /* Pods */,
 				1B593F718A13D931DC7FF63D /* Frameworks */,
+				5C10DB79337713BC59806141 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,8 +70,6 @@
 			children = (
 				18AF8CD122CEE7FA00C0E053 /* AppDelegate.h */,
 				18AF8CD222CEE7FA00C0E053 /* AppDelegate.m */,
-				1830C248246B8C6B009C6855 /* WPAFNetwork.h */,
-				1830C249246B8C6B009C6855 /* WPAFNetwork.m */,
 				18AF8CD422CEE7FA00C0E053 /* ViewController.h */,
 				18AF8CD522CEE7FA00C0E053 /* ViewController.m */,
 				18A8024D22D4BCC600083AAF /* Fizz.h */,
@@ -91,18 +86,19 @@
 		1B593F718A13D931DC7FF63D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4F9468B39F3D63F8E6F969F /* libPods-RatelOC.a */,
+				C0B9085BB22AA0ACB4FA57BC /* libPods-RatelOC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1EB890676C73770D75E8FBC2 /* Pods */ = {
+		5C10DB79337713BC59806141 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7949ECAE08A98878911F1C00 /* Pods-RatelOC.debug.xcconfig */,
-				AF471130EAA820904041AAE4 /* Pods-RatelOC.release.xcconfig */,
+				C88F36311DF81D51BE8DDC2D /* Pods-RatelOC.debug.xcconfig */,
+				6F6D461888A01E71A83EAF74 /* Pods-RatelOC.release.xcconfig */,
 			);
 			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +112,7 @@
 				18AF8CCA22CEE7FA00C0E053 /* Sources */,
 				18AF8CCB22CEE7FA00C0E053 /* Frameworks */,
 				18AF8CCC22CEE7FA00C0E053 /* Resources */,
+				9099D610D8E1D8713BC6D25C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +191,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9099D610D8E1D8713BC6D25C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RatelOC/Pods-RatelOC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RatelOC/Pods-RatelOC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RatelOC/Pods-RatelOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -205,7 +219,6 @@
 				18AF8CD622CEE7FA00C0E053 /* ViewController.m in Sources */,
 				18AF8CE122CEE7FB00C0E053 /* main.m in Sources */,
 				18AF8CD322CEE7FA00C0E053 /* AppDelegate.m in Sources */,
-				1830C24A246B8C6B009C6855 /* WPAFNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,37 +358,39 @@
 		};
 		18AF8CE522CEE7FB00C0E053 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7949ECAE08A98878911F1C00 /* Pods-RatelOC.debug.xcconfig */;
+			baseConfigurationReference = C88F36311DF81D51BE8DDC2D /* Pods-RatelOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPZ789UVH;
 				INFOPLIST_FILE = RatelOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18AF8CE622CEE7FB00C0E053 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF471130EAA820904041AAE4 /* Pods-RatelOC.release.xcconfig */;
+			baseConfigurationReference = 6F6D461888A01E71A83EAF74 /* Pods-RatelOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPZ789UVH;
 				INFOPLIST_FILE = RatelOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = weipeng.tec.RatelOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
