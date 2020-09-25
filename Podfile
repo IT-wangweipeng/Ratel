@@ -7,9 +7,11 @@ project 'RatelSwift.xcodeproj'
 target 'RatelSwift' do
 
   project 'RatelSwift/RatelSwift.xcodeproj'
+  
   pod 'Alamofire', '~> 5.2.1'
   pod 'Moya', '~> 14.0.0'
   pod 'SwiftyJSON', '~> 5.0.0'
+  pod 'SnapKit', '~> 5.0.1'
 
 end 
 
